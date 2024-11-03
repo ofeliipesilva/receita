@@ -1,0 +1,157 @@
+body {
+    background-color: #dbc8b0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.50rem;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.morangoffe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: auto;
+}
+
+.morangoffe img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.img {
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+.ingrediente-lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredientes-item1,
+.ingredientes-item2,
+.ingredientes-item3,
+.ingredientes-item4,
+.ingredientes-item5,
+.ingredientes-item6,
+.ingredientes-item7,
+.ingredientes-item8 {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.ingredientes-item1::before {
+    content: '🍪';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item2::before {
+    content: '🧈';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item3::before {
+    content: '🫙';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item4::before {
+    content: '🫙';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item5::before {
+    content: '🥛';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item6::before {
+    content: '🫙';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item7::before {
+    content: '🍓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.ingredientes-item8::before {
+    content: '🍬';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+ol li {
+    font-size: 18px;
+}
+
+.modo_preparo {
+    background-color: #f9f9f9; 
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: #000;
+}
+
+.modo_preparo h3 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 30px; 
+}
+.modo_preparo ol {
+    list-style: none;
+    padding: 0;
+}
+
+.modo_preparo strong {
+    color: #fca16c;
+}
+
+.modo_preparo p {
+    margin: 0; 
+}
+
+.Montagem ul{
+    list-style: none;
+    padding: 0;
+}
+
+h4, h5{
+    margin-bottom:0.5rem ;
+}
